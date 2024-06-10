@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    }
+    body{
+    width: 100%;
+    height: 100%;
+   
+    }
+    header{
+        width: 100%;
+        height: 67px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        box-shadow: 0 0.15px 1px #cdcccc;
+        position: fixed;
+    }
+    .navbar-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 370px;
+        
+    }
+    .desktop-nav{
+        font-size: 0.9rem;
+        display: flex;
+        gap: 42px;
+    }
+    .desktop-nav>a{
+        text-decoration: none;
+        color: #737373;;
+    }
+
+    /* NAV LINKS HOVER */
+    .desktop-nav>a:hover{
+        
+        color: #5151e9;;
+    }
+    .logo{
+        display: flex;
+        height: 100%;
+        width: 129px;
+        /* background-color: darkgoldenrod; */
+    }
+    .logo>img{
+        
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        margin-left:-15px ;
+    }
+   #menu{
+    height: 20px;
+    width: 20px;
+    margin-top: 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* object-fit: contain; */
+   }
+
+
+   /* main body */
+
+   main{
+    height: 100%;
+    width: 100%;
+    /* background-color: #4e3030; */
+    justify-content: center;
+    align-items: center; 
+   }
+
+   /* section - container */
+   .section-container{
+    height: 556px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+   }
+
+   .loading-image{
+        height: 250px;
+        width: 520px;
+        /* background-color: lightseagreen; */
+        background-image: url('https://zerodha.com/static/images/landing.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+         display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: 110px 0px 50px 95px ;
+
+        
+   }
+   .sec-1-container> h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.75rem;
+    color: #424242;
+    margin-top: 65px;
+    font-weight: 500;
+   }
+   .sec-1-container> h5{
+    color: #424242;
+    font-size: 1.25rem;
+    font-weight: 400;
+    
+   }
+  
+   /*   signup button */
+
+   .signup-button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+   }
+
+   #signup{ 
+    
+    height: 45px;
+    width: 175px;
+    background-color: #387ed1;
+    margin: 10px 10px;
+    border-radius: 3px;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    margin-top: 50px;
+   }
+
+   
+   #signup:hover{
+    background-color: black;
+    cursor: pointer;
+   }
+
+
+   /* ------section-2----------- */
+
+.section-marketing{
+    /* background-color: gray; */
+    display: flex;
+    height: 553px;
+    width: 100%;
+    /* margin-right: 100px; */
+    /* margin: auto; */
+    /* margin-right: 200px; */
+}
+
+.marketing-img{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(138, 87, 42); */
+    display: flex;
+    gap: 90px;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+
+.sec-img{
+    height:100%;
+    width: 35%;
+    background-image: url('https://zerodha.com/static/images/largest-broker.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* background-color: mediumpurple; */
+    margin-left: 85px;
+    
+    
+
+}
+
+.marketing-heading{
+    margin: auto;
+    /* padding-top: 50px; */
+    height: 60%;
+    width: 45%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: red; */
+    /* background-color: lightsalmon; */
+}
+
+.ul-1{
+    height: 150px;
+    width: 95%;
+    /* background-color: maroon; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    /* line-height: 30px; */
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.news{
+    /* background-color: rgb(157, 0, 255); */
+    height: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    
+}
+.news-img{
+    /* margin-left: 100px; */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-image: url('https://zerodha.com/static/images/press-logos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: aqua; */
+    /* margin: 0px 0px 0px 100px; */
+    height: 100%;
+    width: 100%;
+    /* background-color: magenta; */
+}
+
+h2{
+    color: #424242;;
+    font-size: 30px;
+    /* margin-left: 50px; */
+    font-weight: 500;
+    display: flex;
+    /* justify-content: center; */
+
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: #424242;;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+
+/* ---------------ecosysstem-------------- */
+
+.section-ecosystem{
+    height: 778px;
+    width: 100%;
+    /* background-color: mediumpurple; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ecosystem-left{
+    height: 100%;
+    width: 40%;
+    /* background-color: lightsalmon; */
+    line-height: 30px;
+}
+.five-column{
+    margin-bottom: 20px;
+}
+.five-column h2{
+    margin-bottom: 40px;
+}
+
+.ecosystem-right{
+    height: 100%;
+    width: 48%;
+    /* color: #fcf5f5; */
+    /* background-color: rgb(75, 183, 189); */
+}
+
+.ecosytem-right-img{
+    height: 80%;
+    width: 100%; 
+    background-image: url('https://zerodha.com/static/images/ecosystem.png');
+    background-repeat: no-repeat;
+    /* background-position:center ; */
+    background-size: contain;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.ecoul{
+    list-style: none;
+}
+
+
+
+/* --------SECTION PRICING---------- */
+
+.section-pricing{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(101, 155, 162); */
+}
+
+.sectiion-img-parent{
+    display: flex;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 90%;
+    /* background-color: rgb(210, 99, 40); */
+}
+
+.left-pricing{
+    /* display: flex; */
+    height: 100%;
+    width: 40%;
+    /* background-color: rgb(120, 122, 211); */
+    /* line-height: 35px; */
+}
+.left-pricing>p{
+    margin: 20px 0px 20px 0px;
+}
+
+.right-pricing{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    gap: 0.3px;
+    /* background-color: rgb(27, 99, 138); */
+}
+
+
+.left-pricing-child{
+    height: 100%;
+    width: 48%;
+    /* background-color: rgb(27, 138, 57); */
+    color: white;
+    border: 0.5px solid rgb(43, 42, 42);
+}
+
+.left-pricing-child>h1 {
+    color: rgb(11, 10, 10);
+    font-size: 44px;
+    margin: 30px 0px 0px 49px;
+}
+
+.right-pricing-child{
+    height: 100%;
+    width: 48%;
+    border: 1px solid rgb(43, 42, 42);
+    /* background-color: rgb(105, 138, 27); */
+    
+}
+
+.right-pricing-child>h1{
+    color: rgb(37, 37, 37);
+    font-size: 44px;
+    margin-left: 30px;
+    
+    margin: 30px 0px 0px 49px;
+}
+
+
+/* ---------SECTION-EDUCATION-------- */
+
+.section-eductation{
+    height: 450px;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+}
+
+.education-child{
+    height: 72%;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+.education-child-left{
+    height: 100%;
+    width: 40%;
+    /* background-color: rgb(190, 156, 156); */
+    
+}
+.education-child-right{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(38, 131, 178); */
+    /* display: flex; */
+    justify-content: space-around;
+    line-height: 30px;
+    padding-block-start: 20px;
+    
+}
+
+.education-img{
+    height: 95%;
+    width: 100%; 
+    background-image: url('https://zerodha.com/static/images/index-education.svg');
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    /* object-fit: cover; */
+}
+
+
+/* ------OPEN ACCOUNT--------- */
+
+.section-open-account{
+    height: 350px;
+    width: 100%;
+    /* background-color: rgb(91, 14, 14); */
+    display: flex;
+    justify-content: center;
+}
+.section-open-zerodha-account{
+    margin-top: 50px;
+    height: 60%;
+    width: 90%;
+    /* background-color: rgb(196, 125, 125);     */
+}
+.open-h2{
+    margin-left: 350px;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.open-p{
+    margin-bottom: 50px;
+}
+.sign-up-now{
+    height: 20px;
+    width: 120px;
+    background-color: #387ed1;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    margin-left: 450px;
+    border-radius: 5px;
+}
+.sign-up-now:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+/* -----FOOTER---- */
+footer{
+    height: 800px;
+    width: 100%;
+    
+    background-color: #fbfbfb;
+    /* display: flex;
+    justify-content: center; */
+    margin: auto;
+
+}
+
+.footer-container{
+    height: 40%;
+    width: 90%;
+    /* background-color: #847f7f; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 2%;
+
+}
+
+.footer-child{
+    height: 100%;
+    width: 21%;
+    /* background-color: #5151e9; */
+    color: #9b9b9b;
+    
+}
+
+.footer-child-1{
+    height: 100%;
+    width: 21%;
+    padding-left: 3px;
+    /* background-color: white; */
+    /* display: flex;
+    display: flex;
+    justify-content: center; */
+}
+
+
+.footer-logo{
+    /* background-color: rgb(16, 15, 17); */
+    height: 30px;
+    width: 150px; 
+    background-image: url('https://zerodha.com/static/images/logo.svg');
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 25px; */
+}
+.f-1-p{
+    font-size: smaller;
+    margin-bottom: 20px;
+}
+
+.ul-social{
+    /* border: 1px solid red; */
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0px 0px 0px 20px;
+}
+
+.footer-child>ul{
+    /* background-color: black; */
+    margin-left: 20px;
+    list-style: none;
+    line-height: 30px;
+    /* color: rgb(64, 61, 61); */
+    font-weight: 500;
+    
+}
+
+.li-head{
+    font-size: x-large;
+    margin: 0  0 20px 0px;
+    color: rgb(28, 28, 28);
+}
+
+.footer-p{
+    display: inline-block;
+    margin: 0.5%  5% 0% 5%;
+    font-size: smaller;
+    color: #9b9b9b;
+
+}
+
+.p-items{
+    display: flex;
+    justify-content: flex-start;
+    color: #9b9b9b;
+    gap: 5px;
+    margin: 3%  5% 0 5%;
+    font-size: smaller;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.footer-ul{
+    color: #9b9b9b;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    margin: 3%  5% 2% 5%;
+    gap: 30px;
+}
+.footer-ul>li:hover{
+    color: #5151e9;
+    cursor: pointer;
+}
+.footer-child>ul>li:hover{
+    color: #5151e9;
+    cursor: pointer;
+}
+
+
+
+
+
+   
+  
